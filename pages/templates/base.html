@@ -1,0 +1,16 @@
+<!-- pages/templates/base.html -->
+<header>
+
+    <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a>
+  
+</header>
+  
+  {% block content %}
+  {% endblock content %}
+
+<footer>
+    <ul>
+        <li>phone: 225.444.4444</li>
+        <li>address: BEC 1220 Baton Rouge</li>
+    </ul>
+</footer>
